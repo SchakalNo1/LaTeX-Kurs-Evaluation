@@ -1,0 +1,130 @@
+\input{header.tex}
+\usepackage{tikz}
+\usepackage{wrapfig}
+
+\hypersetup{
+	pdftitle=
+}
+
+\title{}
+\author{
+	Martin Ueding \\
+	\small{\href{mailto:mu@martin-ueding.de}{mu@martin-ueding.de}}
+}
+
+\pagestyle{empty}
+
+\newcommand{\vorname}{Max}
+\newcommand{\nachname}{Kirchner}
+\newcommand{\datum}{06. bis 08. März 2013}
+
+\newcommand{\sep}{\vspace{0.5cm}}
+
+\begin{document}
+
+	\begin{tikzpicture}[scale=0.7]
+		\fill[color=blue] (0, 0) rectangle (2, 2);
+		\fill[color=blue] (2, -2) rectangle (4, 0);
+		\node[color=white] at (3, -1) {\huge $\mathbb F_s$};
+		\node at (2, -2.4) {\large \textsf{Fachschaft}};
+		\node at (2, -2.9) {\large \textsf{Mathematik}};
+	\end{tikzpicture}
+
+	\section*{
+	Evaluation des Kurses zu \LaTeX{} \\
+	bei \vorname{} \nachname{} (\datum)
+}
+
+Hat \vorname{} deine Erwartungen
+
+\begin{tabular}{lccc}
+	& übertroffen & erfüllt & nicht erfüllt \\
+	den Kursinhalt & $\square$ & $\square$ & $\square$ \\
+	den Vortragsstil & $\square$ & $\square$ & $\square$ \\
+\end{tabular}
+
+Wenn nicht, warum?
+\hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\sep
+
+Dein Wunsch für Tiefe/Breite des Inhalts wäre gewesen:
+
+\begin{tabular}{lccc}
+	& mehr & genau richtig & geringer \\
+	Tiefe & $\square$ & $\square$ & $\square$ \\
+	Breite & $\square$ & $\square$ & $\square$ \\
+\end{tabular}
+
+\sep
+
+Der Dozent und Tutoren bekommen für diesen Kurs insgesamt ca. 800 Euro. Angesichts dessen hältst Du
+
+\begin{tabular}{lccc}
+	& sehr gut & zu erwarten & ungenügend \\
+	Stoffbeherrschung & $\square$ & $\square$ & $\square$ \\
+	Didaktik und Aufbau & $\square$ & $\square$ & $\square$ \\
+	Behandlung der Teilnehmer & $\square$ & $\square$ & $\square$ \\
+	Vorbereitung und Arbeitsmaterialien & $\square$ & $\square$ & $\square$ \\
+\end{tabular}
+
+\sep
+
+Wenn nicht, welche Bereiche kamen zu kurz? \hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\hrulefill
+
+\newpage
+
+Es wurden folgende zu erreichende Fertigkeiten vereinbart:
+
+\begin{enumerate}
+	\item
+		Selbständiges Arbeiten eines umfangreichen Textes
+
+	\item
+		In der Lage sein, sich aufbauen auf dem in Kurs vermittelten Wissen
+		selbst weiterzubilden und bei Problemen helfen zu können.
+\end{enumerate}
+
+\sep
+
+Was ist Deine Einschätzung für Dich persönlich?
+\begin{itemize}
+	\item[$\square$]
+		Ich weiß, dass ich diese Fähigkeiten erworben habe.
+	\item[$\square$]
+		Ich weiß jetzt genügend, um selbst ausprobieren zu können, ob ich diese
+		Fähigkeiten (erworben) habe.
+	\item[$\square$]
+		Ich bin mir unsicher, ob ich diese Dinge wirklich gelernt habe,
+	\item[$\square$]
+		aber man hätte sie wohl lernen können.
+	\item[$\square$]
+		denn folgende Probleme wurden nicht intensiv genug behandelt: \hrulefill
+
+		\hrulefill
+
+		\hrulefill
+
+		\hrulefill
+\end{itemize}
+
+\vfill
+
+\begin{flushright}
+	Vielen Dank für Deine Mithilfe! \\
+	Die Fachschaft Mathematik
+\end{flushright}
+
+\end{document}
+
+% vim: spell spelllang=de
