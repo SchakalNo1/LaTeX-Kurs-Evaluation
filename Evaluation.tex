@@ -17,31 +17,32 @@
 
 \newcommand{\vorname}{Max}
 \newcommand{\nachname}{Kirchner}
-\newcommand{\datum}{06. bis 08. März 2013}
+\newcommand{\datum}{04. bis 06. April 2014}
 
 \newcommand{\sep}{\vspace{0.5cm}}
 
 \begin{document}
 
-	\begin{tikzpicture}[scale=0.7]
-		\fill[color=blue] (0, 0) rectangle (2, 2);
-		\fill[color=blue] (2, -2) rectangle (4, 0);
-		\node[color=white] at (3, -1) {\huge $\mathbb F_s$};
-		\node at (2, -2.4) {\large \textsf{Fachschaft}};
-		\node at (2, -2.9) {\large \textsf{Mathematik}};
-	\end{tikzpicture}
+	%% \begin{tikzpicture}[scale=0.7]
+	%% 	\fill[color=blue] (0, 0) rectangle (2, 2);
+	%% 	\fill[color=blue] (2, -2) rectangle (4, 0);
+	%% 	\node[color=white] at (3, -1) {\huge $\mathbb F_s$};
+	%% 	\node at (2, -2.4) {\large \textsf{Fachschaft}};
+	%% 	\node at (2, -2.9) {\large \textsf{Mathematik}};
+	%% \end{tikzpicture}
 
 	\section*{
 	Evaluation des Kurses zu \LaTeX{} \\
 	bei \vorname{} \nachname{} (\datum)
 }
 
-Hat \vorname{} deine Erwartungen
+Der Kurs hat deine Erwartungen an
 
 \begin{tabular}{lccc}
 	& übertroffen & erfüllt & nicht erfüllt \\
 	den Kursinhalt & $\square$ & $\square$ & $\square$ \\
 	den Vortragsstil & $\square$ & $\square$ & $\square$ \\
+	die Übungen      & $\square$ & $\square$ & $\square$
 \end{tabular}
 
 Wenn nicht, warum?
@@ -53,24 +54,35 @@ Wenn nicht, warum?
 
 \sep
 
-Dein Wunsch für Tiefe/Breite des Inhalts wäre gewesen:
+Dein Wunsch für die Inhalte wäre gewesen:
 
 \begin{tabular}{lccc}
 	& mehr & genau richtig & geringer \\
 	Tiefe & $\square$ & $\square$ & $\square$ \\
 	Breite & $\square$ & $\square$ & $\square$ \\
+        Aufgaben & $\square$ & $\square$ & $\square$
 \end{tabular}
 
 \sep
 
-Der Dozent und Tutoren bekommen für diesen Kurs insgesamt ca. \EUR{800}. Angesichts dessen hältst Du
+Der Dozent und Tutoren bekommen für diesen Kurs insgesamt ca. \EUR{1000} (ca. \EUR{20} pro Person). Angesichts dessen hältst Du
 
 \begin{tabular}{lccc}
 	& sehr gut & zu erwarten & ungenügend \\
 	Stoffbeherrschung & $\square$ & $\square$ & $\square$ \\
 	Didaktik und Aufbau & $\square$ & $\square$ & $\square$ \\
 	Behandlung der Teilnehmer & $\square$ & $\square$ & $\square$ \\
-	Vorbereitung und Arbeitsmaterialien & $\square$ & $\square$ & $\square$ \\
+ 	das Skript & $\square$ & $\square$ & $\square$ \\
+ 	die Übungsaufgaben & $\square$ & $\square$ & $\square$
+\end{tabular}
+
+\sep
+
+Der Kurs wurde aus Qualitätsverbesserungsmitteln bezahlt. Angenommen diese würden entfallen, welchen Beitrag wärst du bereit gewesen für den Kurs zu zahlen?
+
+\begin{tabular}{*6c}
+	\EUR{0} & \EUR{5} & \EUR{10} & \EUR{15} & \EUR{20} & >\EUR{20} \\
+	$\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$
 \end{tabular}
 
 \sep
@@ -85,14 +97,13 @@ Wenn nicht, welche Bereiche kamen zu kurz? \hrulefill
 
 \newpage
 
-Es wurden folgende zu erreichende Fertigkeiten vereinbart:
+Das Ziel des Kurses war es
 
 \begin{enumerate}
-	\item
-		Selbständiges Arbeiten eines umfangreichen Textes
-
-	\item
-		In der Lage sein, sich aufbauen auf dem in Kurs vermittelten Wissen
+        \item die grundsätzliche Funktionsweise von \LaTeX\ zu verstehen
+        \item einen Überblick zu verschaffen, welche Möglichkeiten \LaTeX\ bietet
+        \item wissenschaftliche Schriften verfassen zu können 
+	\item In der Lage sein, sich aufbauen auf dem in Kurs vermittelten Wissen
 		selbst weiterzubilden und bei Problemen helfen zu können.
 \end{enumerate}
 
@@ -106,11 +117,11 @@ Was ist Deine Einschätzung für Dich persönlich?
 		Ich weiß jetzt genügend, um selbst ausprobieren zu können, ob ich diese
 		Fähigkeiten (erworben) habe.
 	\item[$\square$]
-		Ich bin mir unsicher, ob ich diese Dinge wirklich gelernt habe,
+		Ich bin mir unsicher, ob ich diese Dinge wirklich gelernt habe.
 	\item[$\square$]
-		aber man hätte sie wohl lernen können.
+		die Ziele wurden nicht erreicht.
 	\item[$\square$]
-		denn folgende Probleme wurden nicht intensiv genug behandelt: \hrulefill
+		folgende Probleme wurden nicht intensiv genug behandelt: \hrulefill
 
 		\hrulefill
 
@@ -118,6 +129,32 @@ Was ist Deine Einschätzung für Dich persönlich?
 
 		\hrulefill
 \end{itemize}
+
+\sep 
+
+Wie beurteilst du in der Retrospektive die Zeitaufteilung?
+\begin{itemize}
+	\item[$\square$]
+		Der Kurs war zu lang, ein kürzerer Kurs mit weniger Stoff hätte gereicht.
+	\item[$\square$]
+		Der Kurs war zu kurz, lieber länger und dafür ausführlicher.
+	\item[$\square$]
+		Lieber mehr Fokus auf die Übungen, weniger Vorlesung.
+	\item[$\square$]
+		Lieber mehr Fokus auf die Vorlesung, weniger Übung.
+	\item[$\square$]
+		Der Kurs war genau richtig.                
+\end{itemize}
+
+\sep
+
+sonstige Anmerkungen:  \hrulefill
+
+		\hrulefill
+
+		\hrulefill
+
+		\hrulefill
 
 \vfill
 
